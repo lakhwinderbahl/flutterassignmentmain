@@ -15,7 +15,7 @@ class NewsDetails extends StatelessWidget {
     Articles item = controller.getSelectedArticle();
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.deepOrangeAccent,
+        backgroundColor: Color.fromRGBO(51, 95, 143, 1),
         title: Text("Details"),
       ),
       body: SingleChildScrollView(
@@ -103,7 +103,7 @@ class NewsDetails extends StatelessWidget {
                   width: 20,
                 ),
                 FloatingActionButton(
-                  backgroundColor: Colors.deepOrangeAccent,
+                  backgroundColor: Color.fromARGB(255, 207, 41, 41),
                   heroTag: "open",
                   onPressed: () {
                     controller.openUrl(item.url!); // Opening the news url in particular app

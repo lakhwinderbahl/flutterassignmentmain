@@ -11,6 +11,7 @@ class Welcome extends StatelessWidget {
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
+          Image.asset("assets/Welcome 3.jpg"),
           Image.asset("assets/welcome.png"),
           Image.asset("assets/welcome2.png"),
           Container(
